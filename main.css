@@ -1,0 +1,150 @@
+body{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    width: 100%;
+    font-size: 25px;
+}
+
+#banner{
+    padding: 20px;
+    width:90%;
+    background-color: rgb(214, 244, 104);
+    text-align: center;
+}
+
+#login{
+    padding: 20px;
+    width:50%;
+    background-color: rgb(214, 244, 104);
+    text-align: center;
+}
+
+#passwordBtn{
+    margin: 10px;
+    background-color: #4CAF50; /* Green */
+    border-color:none;
+}
+
+#form{
+    padding: 0px;
+    padding-top: 0;
+    /* background-color: rgb(245, 247, 238); */
+    border-color:black;
+    width: 100%;
+}
+
+.formBtn{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3px;
+}
+
+#selGenreBtn{
+    background-color: #b0b5b1; /* Green */
+    border: none;
+    color: rgb(9, 0, 0);
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration:solid;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.col{
+    text-Align :center;
+}
+
+.colcurrent{
+    text-Align :center;
+}
+
+table, th,td, tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 2px;
+    width: 50%;
+}
+
+.showTable{
+    background-color:beige;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 20px;
+    width: 90%;
+}
+
+.showTable.id{
+    width:10%;
+}
+
+.createForm{
+    background-color:beige;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 20px;
+    width: 90%;
+}
+
+
+p{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+#genreBtn, #currentBtn{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3px;
+}
+
+h1{
+    margin:0;
+    margin-bottom: 20px;
+    font-size:60px;
+    padding:0;
+    border:0;
+}
+
+h2{
+    margin:0;
+    margin-top: 0px;
+    font-size: 40px;
+    padding:0;
+    border:0;
+}
+
+h3{
+    margin:0;
+    margin-top: 20px;
+    padding:0;
+    border:0;
+}
+
+#grpDeleteBtn{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
