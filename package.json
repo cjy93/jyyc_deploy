@@ -1,4 +1,5 @@
 {
+  "homepage": "https://cjy93.github.io/jyyc_deploy",
   "dependencies": {
     "@babel/cli": "^7.19.3",
     "@babel/core": "^7.19.3",
@@ -13,6 +14,8 @@
   },
   "scripts": {
     "start": "npx babel --watch src --out-dir output --presets @babel/preset-react --plugins=babel-plugin-add-import-extension",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",    
     "build": "webpack"
   },
   "name": "react-ay2223s2-class-1-v2-wongyitchong",
