@@ -40,7 +40,7 @@ export default function Create(props) {
         Authorization: `Bearer ${localStorage["tokenNew"]}`
       }
     };
-    fetch(`http://localhost:3000/movie_add`, reqOption).then(response => {
+    fetch(`http://52.86.67.23:3000/movie_add`, reqOption).then(response => {
       if (!response.ok) {
         console.log("status code:", response.status);
         throw Error(`${response.status} error`);

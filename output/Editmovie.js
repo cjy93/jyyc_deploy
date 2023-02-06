@@ -45,7 +45,7 @@ export default function Editmovie(props) {
         Authorization: `Bearer ${localStorage["tokenNew"]}`
       }
     };
-    fetch(`http://localhost:3000/movie_update/${updateIndex}`, reqOption).then(response => {
+    fetch(`http://52.86.67.23:3000/movie_update/${updateIndex}`, reqOption).then(response => {
       console.log("response", response);
       if (!response.ok) {
         console.log("status code:", response.status);
