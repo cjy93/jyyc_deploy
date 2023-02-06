@@ -86,6 +86,8 @@ export default function Login(props) {
                                 "Content-Type": "application/json; charset=UTF-8",
                                 // Authorization: `Bearer ${token}`,
                             },
+                            rejectUnauthorized: false
+
                         };
 
                         fetch(`https://52.86.67.23:3000/login`, reqOption)

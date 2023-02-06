@@ -13,9 +13,9 @@
     "react-router-dom": "^6.7.0"
   },
   "scripts": {
-    "start": "npx babel --watch src --out-dir output --presets @babel/preset-react --plugins=babel-plugin-add-import-extension",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",    
+    "start": "PORT=5500 npx babel --watch src --out-dir output --presets @babel/preset-react --plugins=babel-plugin-add-import-extension",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "webpack"
   },
   "name": "react-ay2223s2-class-1-v2-wongyitchong",
