@@ -24,7 +24,7 @@ export default function App() {
 
   //Fetch list of movie records 
   React.useEffect(() => {
-    fetch('http://localhost:3000/movie')
+    fetch('http://52.86.67.23:3000/movie')
       .then(response => response.json())
       .then(data => {
         // extract movie from JSON data and setShowList with arr
