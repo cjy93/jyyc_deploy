@@ -34,7 +34,7 @@ export default function Create(props) {
             },
         };
 
-        fetch(`https://52.86.67.23:3000/movie_add`, reqOption)
+        fetch(`https://localhost:3000/movie_add`, reqOption)
             .then((response) => {
                 if (!response.ok) {
                     console.log("status code:", response.status);
