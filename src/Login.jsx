@@ -90,7 +90,7 @@ export default function Login(props) {
 
                         };
 
-                        fetch(`https://localhost:3000/login`, reqOption)
+                        fetch(`http://localhost:3000/login`, reqOption)
                             .then((response) => {
                                 if (!response.ok) {
                                     console.log("Response", response);

@@ -41,7 +41,7 @@ export default function Editmovie(props) {
             },
         };
 
-        fetch(`https://localhost:3000/movie_update/${updateIndex}`, reqOption)
+        fetch(`http://localhost:3000/movie_update/${updateIndex}`, reqOption)
             .then((response) => {
                 console.log("response", response)
                 if (!response.ok) {
